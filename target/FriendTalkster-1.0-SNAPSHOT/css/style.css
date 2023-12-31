@@ -1,0 +1,196 @@
+body{
+    background:linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../Images/bggalaxy.jpg');
+    color:white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.img-fluid1 {
+    max-width: 35px;
+    height: auto;
+    border: 2px solid white;
+}
+.profile-image{
+    min-width: 250px;
+    padding: 5px;
+}
+.profile-image:hover{
+    cursor: pointer;
+    background: #333333;
+    color: white;
+
+}
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #fce4ec;
+    min-width: 350px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.messagepost{
+    background: none;
+    box-shadow: 0px 0px 2px 2px grey;
+}
+.inputstyle{
+    width: 400px;
+    box-shadow: 1px 5px 3px 0px grey;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.inputstyle:hover{
+    background-color: #ddd;
+}
+@media screen and (max-width: 500px) {
+    div.leftsectionhide {
+        display: none;
+    }
+}
+@media screen and (max-width: 500px) {
+    div.rightsectionhide {
+        display: none;
+    }
+}
+.messageicon{
+    padding: 8px;
+}
+
+.messageicon:hover{
+    cursor: pointer;
+    background: #333;
+
+    border-radius:5px;
+}
+.list-group-item1{
+    background:rgb(36 37 38);
+    color: white;
+}
+
+.log
+{
+    width: 380px;
+    margin: 7% auto;
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 30px;
+    box-shadow: 0 0 7px 7px #333;
+    margin-top: 100px;
+}
+.sign
+{
+    width: 680px;
+    margin: 7% auto;
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 30px;
+    box-shadow: 0 0 7px 7px #333;
+    margin-top: 50px;
+}
+.header
+{
+
+    padding-top: 30px;
+    text-align: center;
+}
+.header h2
+{
+    color: white;
+    margin-bottom: 20px;
+}
+.main
+{
+    text-align: center;
+}
+.main input
+{
+    width: 300px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 40px;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 40px;
+    border-radius: 5px;
+
+}
+.logbtn{
+    margin-bottom: 20px;
+    width: 150px;
+}
+.main input:hover
+{
+    background-color: darkorange;
+    box-shadow: 2px 2px 5px #555;
+}
+.main input:hover
+{
+    box-shadow: 2px 2px 5px #555;
+    background-color: #ddd;
+}
+.main span
+{
+    position: relative;
+}
+.main i
+{
+    position: absolute;
+    left: 15px;
+    color: #333;
+    font-size: 15px;
+    top: 2px;
+}
+.leftpropcss{
+    margin-top: 2%;
+    background-color: white;
+    border-radius: 7px;
+    padding: 10px;
+    box-shadow: 2px 1px 2px 1px black;
+    max-height: 500px;
+}
+.rightpropcss{
+    margin-top: 2%;
+    margin-left: 1%;
+    border-radius: 7px;
+    background-color: white;
+    box-shadow: 2px 1px 2px 1px black;
+    padding: 10px;
+}
+.bg{
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../Images/home-transformed.jpeg');
+    /*background-image: url('');*/
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+}
+.searchFriend{
+    padding: 10px;
+}
+.searchFriend:hover{
+    background: #333333;
+    border-radius: 5px;
+}
+::-webkit-scrollbar{
+    width: .50em;
+}
+::-webkit-scrollbar-track {
+    background: #333333;
+}
+::-webkit-scrollbar-thumb {
+    background: #555;
+    border: 2px solid #333333;
+    border-radius: 10vw;
+
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #ddd;
+}
+.rightsidebar:hover{
+    height: 540px;
+    overflow-y: scroll;
+
+}
+
